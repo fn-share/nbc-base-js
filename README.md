@@ -50,7 +50,7 @@ browserify -r create-hash -r create-hmac -r create-ecdh -r crypto-js -r safe-buf
 npm install uglify-js -g
 ```
 
-然后启动压缩。
+最后启动压缩。
 
 ``` bash
 uglifyjs nbc_base.js -c -m >nbc_base.min.js
