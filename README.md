@@ -30,7 +30,7 @@ npm install
 
 第三步，用 browserify 工具将库打包成 `nbc_base.js`
 
-如果尚未安装 browserify 工具，请先执行如下命令：
+如果尚未安装 [browserify](https://github.com/browserify/browserify) 工具，请先执行如下命令：
 
 ``` bash
 npm install browserify -g
