@@ -13,7 +13,7 @@ Basic javascript library for NBC.
 
 &nbsp;
 
-### 操作步骤
+## 操作步骤
 
 第一步，将本项目拉取到本地。
 
@@ -39,7 +39,7 @@ npm install browserify -g
 然后打包，输出 `nbc_base.js` 。
 
 ``` bash
-browserify -r create-hash -r create-hmac -r create-ecdh -r crypto-js -r safe-buffer -r bip32 -r tiny-secp256k1 -r bip66 -r base-x -r @subspace/vdf > nbc_base.js
+browserify -r create-hash -r create-hmac -r create-ecdh -r crypto-js -r safe-buffer -r bip32 -r tiny-secp256k1 -r bip66 -r base-x -r @subspace/vdf >nbc_base.js
 ```
 
 第四步，将 `nbc_base.js` 压缩成 `nbc_base.min.js`
@@ -58,9 +58,9 @@ uglifyjs nbc_base.js -c -m >nbc_base.min.js
 
 &nbsp;
 
-### 关于基础库
+## 关于基础库
 
-nbc_base 库打包了 `crypto-js, bip32, safe-buffer, @subspace/vdf` 等基础库，涉及 AES 加解密、hmac 算法、hash 算法、secp256k1 椭圆曲线算法、HD wallet 账号衍生算法、vdf 算法等，部分基础库我们未采用最新版本，因为最新版本塞入过多我们并不想要的代码，过于臃肿。
+nbc_base 库打包了 `crypto-js, bip32, safe-buffer, @subspace/vdf` 等基础库，涉及 AES 加解密、hmac 算法、hash 算法、secp256k1 椭圆曲线算法、HD wallet 账号衍生算法、vdf 算法等，部分基础库我们未采用最新版本，因为最新版本塞入过多我们并不想要的代码。
 
 按上述步骤打包后，最终得到的 `nbc_base.min.js` 尺寸是 629k 字节。
 
