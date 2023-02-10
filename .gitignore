@@ -1,0 +1,5 @@
+# MAC files
+.DS_Store
+.vscode
+node_modules
+*/.DS_Store

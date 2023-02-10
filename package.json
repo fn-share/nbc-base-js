@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@subspace/vdf": "^0.1.0",
+    "bitcoinjs-lib": "^5.0.5",
+    "create-ecdh": "^4.0.4",
+    "crypto-js": "^3.1.9-1"
+  }
+}
